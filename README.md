@@ -1,47 +1,52 @@
-# L’injection de prompt : Qu’est-ce que c’est ?
+# L’injection de prompt : c’est quoi et pourquoi c’est dangereux ?
 
-L’injection de prompt est une technique qui consiste à manipuler les modèles d’Intelligence Artificielle (IA) afin de générer des réponses potentiellement nuisibles. Ces manipulations peuvent conduire à la révélation d’informations sensibles, à la contournement des filtres imposés ou à d’autres actions indésirables.
+## Qu’est-ce que l’injection de prompt ?
 
----
+L’injection de prompt est une méthode utilisée pour tromper une intelligence artificielle, comme un chatbot. Elle consiste à écrire un message (appelé "prompt") de manière spéciale pour que l’IA fasse quelque chose qu’elle n’est normalement pas censée faire.
 
-## Comment fonctionnent les attaques par injection de prompt ?
+Par exemple, une personne pourrait essayer de contourner les règles de sécurité en glissant discrètement une instruction cachée dans un texte. L’IA pourrait alors répondre à des questions sensibles ou donner des informations interdites.
 
-Les attaques de prompt exploitent la manière dont les modèles d’IA traitent les informations. Les attaquants parviennent à tromper les modèles de langage, ce qui leur permet de réaliser des actions non prévues, telles que :
+## Comment ça fonctionne ?
 
-- Fuites de données sensibles
-- Contournement des politiques de sécurité
-- Génération de désinformation par l’IA
+Les modèles d’IA lisent et répondent aux messages en se basant sur le texte fourni. Ils ne comprennent pas vraiment comme un humain, mais suivent des modèles appris. Si un message est bien formulé, même s’il est trompeur, l’IA peut croire qu’elle doit obéir.
 
-### Mesures de protection existantes
+C’est comme si on glissait une nouvelle consigne dans une conversation, et que l’IA pensait que cette consigne faisait partie des instructions normales.
 
-Pour contrer ce type d’attaque, plusieurs mesures de protection sont mises en place. Par exemple, les entreprises comme OpenAI utilisent la **validation robuste des entrées**. Ce système nettoie les données fournies par les utilisateurs en :
+## Quels sont les risques ?
 
-- Filtrant les caractères spéciaux
-- Appliquant des expressions régulières
-- Détectant les entrées potentiellement nuisibles
+L’injection de prompt peut poser de vrais problèmes. Voici quelques exemples de ce que cela peut provoquer :
 
----
+- Donner accidentellement des **informations confidentielles**
+- **Contourner les règles** mises en place pour la sécurité
+- **Produire des fausses informations**
+- **Changer le comportement** de l’IA pour l’utiliser de manière dangereuse
 
-## Quels sont les risques pour l’intelligence artificielle ?
+Ces attaques sont difficiles à détecter, car elles jouent sur les mots et le contexte. Le modèle peut se laisser piéger sans le vouloir.
 
-La prompt injection est considérée comme une menace critique pour les systèmes d’IA. Elle peut être comparée à :
+## Quelles protections existent ?
 
-- L’exécution de code non autorisé
-- L’exposition accidentelle d’informations sensibles
+Pour limiter ces attaques, les concepteurs d’IA mettent en place plusieurs barrières :
 
-Ce type d’attaque exploite la manière dont les modèles interprètent les instructions, souvent sans distinction claire entre commandes fiables et malveillantes. De plus, les défenses actuelles échouent souvent car elles reposent sur l’idée que le modèle est stable et prévisible. Or, la nature même des modèles de langage les rend vulnérables à des variations contextuelles subtiles et des manipulations ingénieuses, rendant leur sécurisation très complexe.
+- **Nettoyer le texte** envoyé par l’utilisateur (suppression de caractères spéciaux, mots suspects, etc.)
+- **Analyser les messages** avec des règles automatiques (comme des expressions régulières)
+- **Filtrer les demandes** qui semblent étranges ou dangereuses
 
----
+Mais ces protections ne sont pas parfaites. Les attaques peuvent être subtiles et passer entre les mailles du filet.
 
-## Comment les attaquants contournent-ils les mesures de protection ?
+## Comment les pirates contournent les protections ?
 
-Pour échapper aux protections contre l’injection de prompt, les attaquants emploient des stratégies telles que :
+Les personnes malveillantes utilisent des astuces pour tromper les systèmes de sécurité :
 
-- Instructions déguisées exploitant la confusion du modèle entre prompts internes et externes
-- Formulations ambiguës ou détournées pour désactiver les garde-fous
-- Enchaînement de commandes afin d’influencer les réponses
-- Utilisation de langages alternatifs, de métaphores trompeuses
-- Encapsulation d’instructions dans des balises ou des citations
-- Dissimulation d’instructions dans des données apparemment inoffensives
+- **Déguiser les commandes** : écrire une instruction de manière détournée
+- **Utiliser des phrases ambiguës** : formuler les messages de façon floue pour passer inaperçu
+- **Cacher les consignes** dans des citations, balises HTML ou symboles
+- **Écrire en plusieurs langues** ou utiliser des jeux de mots
+- **Découper les instructions** en plusieurs parties pour contourner les filtres
 
-Même les modèles équipés de filtres stricts peuvent être contournés si les entrées sont assez subtiles et bien conçues.
+Même un système bien protégé peut se faire piéger si le message est assez intelligent et bien construit.
+
+## Conclusion
+
+L’injection de prompt est une vraie menace pour les intelligences artificielles modernes. Elle montre que, même si ces systèmes sont puissants, ils restent fragiles face à certaines manipulations.
+
+Il est donc important de continuer à améliorer la sécurité des IA, et de bien comprendre comment elles peuvent être trompées. La prévention passe par la recherche, les tests, et une meilleure éducation sur ces risques.
