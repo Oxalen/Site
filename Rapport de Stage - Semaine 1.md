@@ -16,7 +16,7 @@ Elles permettent :
 - de générer de la désinformation,  
 - et globalement, de changer le comportement de l’IA pour l’utiliser de manière dangereuse.
 
-## Mardi 17 juin 2025
+# Mardi 17 juin 2025
 
 Ce jour, j’ai appris à installer un **LLM en local via LM Studios**.  
 Grâce à cette installation, le modèle d’IA n’est plus restreint par son *system prompt* (liste de règles strictes définies par les développeurs), ce qui veut dire que l’utilisateur n’est également plus restreint par les limites établies.  
