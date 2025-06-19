@@ -27,3 +27,9 @@ J’ai également appris à utiliser **A-Frame** afin de créer une scène avec 
 J’ai aussi commencé un projet intitulé :  
 **« Assistant IA pour la recherche de PFMP »**
 
+# Mercredi 18 juin 2025
+
+Aujourd'hui, j'ai poursuivi l'avancement de mon projet.  
+J'ai amélioré mon *system prompt* et me suis principalement concentré sur la création d’un guide d’installation.
+
+
