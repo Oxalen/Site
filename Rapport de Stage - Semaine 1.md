@@ -32,4 +32,10 @@ J’ai aussi commencé un projet intitulé :
 Aujourd'hui, j'ai poursuivi l'avancement de mon projet.  
 J'ai amélioré mon *system prompt* et me suis principalement concentré sur la création d’un guide d’installation.
 
+# Jeudi 19 juin 2025
+
+Aujourd'hui, j’ai poursuivi le développement de mon projet.  
+Cette fois, j’ai ajouté une section « RGPD » en m’appuyant sur des documents fournis par le ministère de l’Éducation nationale.  
+J’ai également continué à corriger les problèmes de mon *system prompt*.
+
 
