@@ -38,4 +38,8 @@ Aujourd'hui, j’ai poursuivi le développement de mon projet.
 Cette fois, j’ai ajouté une section « RGPD » en m’appuyant sur des documents fournis par le ministère de l’Éducation nationale.  
 J’ai également continué à corriger les problèmes de mon *system prompt*.
 
+# Vendredi 20 Juin 2025 
+
+Ce jour j'ai appris l'indexage des informations. 
+
 
